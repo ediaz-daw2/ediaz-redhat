@@ -1,0 +1,170 @@
+body {
+    background-image: url(../Imatges/menu.jpg);
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: center;
+    box-sizing: unset;
+  }
+  
+  hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.42);
+  }
+  h2 {
+    color: #43e7fd;
+  }
+  
+  .fondo {
+    background-color: #0c21359c;
+    border-radius: 30px;
+  }
+  .fondu {
+    border-color: #0000007d;
+    background-color: rgba(0, 0, 0, 0.22);
+    border-radius: 20px 50px;
+    border-style: solid;
+    padding: 20px;
+    border-width: 10px;
+  }
+  
+  .btn-outline-success {
+    color: #43e7fd;
+    border-color: #43e7fd;
+  }
+  .navbar-dark .navbar-brand {
+    color: #43e7fd;
+  }
+  .btn-outline-success:hover {
+    color: #fff;
+    background-color: #43e7fd;
+    border-color: #ffcff1;
+  }
+  .btn-outline-success:not(:disabled):not(.disabled).active,
+  .btn-outline-success:not(:disabled):not(.disabled):active,
+  .show > .btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: #43e7fd;
+    border-color: #43e7fd;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: #43e7fd;
+  }
+  .btn-outline-success.focus,
+  .btn-outline-success:focus {
+    box-shadow: 0 0 0 0.2rem rgba(40, 165, 167, 0.47);
+  }
+  .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #43e7fd2b;
+    background-clip: padding-box;
+    border: 1px solid #43e7fd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .form-control:focus {
+    color: #ffffff;
+    background-color: #43e7fd73;
+    border-color: #43e7fd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .bg-dark {
+    background-color: #0c2135 !important;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: #43e7fd;
+    border-color: #000000;
+  }
+  .btn-primary:not(:disabled):not(.disabled).active,
+  .btn-primary:not(:disabled):not(.disabled):active,
+  .show > .btn-primary.dropdown-toggle {
+    color: #070b2b;
+    background-color: #43e7fd;
+    border-color: #ffffff;
+  }
+  .btn-primary.focus,
+  .btn-primary:focus {
+    color: #fff;
+    background-color: #43e7fd;
+    border-color: #ffffff;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #43e7fd;
+    border-color: #ffffff;
+  }
+  
+  #menu ul ul {
+    display: none;
+    position: absolute;
+    top: 2;
+    left: 0;
+    padding: 0;
+  }
+  
+  /* items del menu desplegable */
+  
+  #menu ul ul li {
+    float: none;
+    width: 150px;
+  }
+  
+  /* enlaces de los items del menu desplegable */
+  
+  #menu ul ul a {
+    line-height: 120%;
+    padding: 10px 15px;
+  }
+  
+  /* items del menu desplegable al pasar el ratón */
+  
+  #menu ul li:hover > ul {
+    display: block;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #00b0cc;
+    border-color: #000000;
+  }
+  
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: nowrap;
+    /* margin-right: -15px; */
+    margin-left: -15px;
+  }
+  
+  .nav-item-uf{
+    list-style:none;
+    text-decoration: none;
+    position: relative;
+    left: 22px;
+
+  }
+
+  .nav-item-prac{
+    list-style:none;
+    text-decoration: none;
+    position: relative;
+    left: 95px;
+  }
